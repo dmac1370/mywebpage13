@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MY HTML WEB PAGE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 25%;
+    height: 800px; /* only for demonstration, should be removed */
+    background: orange;
+    padding: 10px;
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 30px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+
+<header>
+  <h2>HOBBIES AND INTERESTS</h2>
+</header>
+ <font size=05">
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/home.HTML">HOME</a></li>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/FAMILY3.HTML">FAMILY</a></li>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/BALL.HTML">BASEBALL</a></li>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/ELEC.HTML">ELECTRONICS</a></li>
+    </ul>
+  </nav>
+  <article>
+<img src="C:\Users\Natheniell Wyrick\Documents\html\mekids.jpg" style-"float:left;width="460" height="350">
+<img src="C:\Users\Natheniell Wyrick\Documents\html\me.jpg" style-"float:right;width="180" height="300">
+<img src="C:\Users\Natheniell Wyrick\Documents\html\girls20.jpg" width="280" height="340"> 
+<font size=05">
+   <center>
+     <h1>HOME</h1>
+<p> In this project, I have created a web page that discusses my top three hobbies and interest. I could make a longer list im sure because I am very blessed and have many things to be thankful for, but for now we will just stick with the top three. Thank you for stopping by! Hope you enjoy!
+Dustin McCollister</p>
+  </article>
+</section>
+
+
+</body>
+</html>

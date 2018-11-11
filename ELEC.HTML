@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MY HTML WEB PAGE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 25%;
+    height: 800px; /* only for demonstration, should be removed */
+    background: orange;
+    padding: 10px;
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 30px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>HOBBIES AND INTERESTS</h2>
+</header>
+ <font size=05">
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/home.HTML">HOME</a></li>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/FAMILY3.HTML">FAMILY</a></li>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/BALL.HTML">BASEBALL</a></li>
+      <li><a href="file:///C:/Users/Natheniell%20Wyrick/Documents/html/ELEC.HTML">ELECTRONICS</a></li>
+    </ul>
+  </nav>
+  <article>
+<img src="C:\Users\Natheniell Wyrick\Documents\html\COMPUTER.jpg" style-"float:left;width="260" height="140">
+<img src="C:\Users\Natheniell Wyrick\Documents\html\apple.jpg" style-"float:right;width="260" height="240">
+<center> <font size=05'>
+    <h1>ELECTRONICS</h1>
+<li><a href="https://www.amazon.com/Amazon-Fire-TV-Stick-With-Alexa-Voice-Remote-Streaming-Media-Player/dp/B00ZV9RDKK/ref=sr_1_2?ie=UTF8&qid=1538674173&sr=8-2&keywords=fire+stick&dpID=31CO38sRgDL&preST=_SY300_QL70_&dpSrc=srch"> Amazon Firesticks</a></li>
+    <p>My Love for computers is the third on my list for hobbies and interest. I received my first macintosh computer when i was 5 years old. All that was on it was "The Oregon Trail". I played almost every day but when you dont have all the electronics that kids have now days, you explore and learn stuff just to entertain yourself, and that it how I first developed my love for computers. Now days I own my own small business repaiaring hardware/software on computers, screens on phones, jailbreak firesticks, and have been working on my own private project app that kind of goes along with my small business.</p>
+
+
+
+  </article>
+</section>
+
+
+</body>
+</html>
